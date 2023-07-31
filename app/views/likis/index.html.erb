@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Likis</h1>
+
+<div id="likis">
+  <% @likis.each do |liki| %>
+    <%= render liki %>
+    <p>
+      <%= link_to "Show this liki", liki %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New liki", new_liki_path %>

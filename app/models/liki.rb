@@ -1,0 +1,2 @@
+class Liki < ApplicationRecord
+end
